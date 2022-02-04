@@ -21,6 +21,7 @@ namespace opsec_task
 
                 if (!string.IsNullOrWhiteSpace(link) && !string.IsNullOrWhiteSpace(title))
                 {
+                    //Compiler believes these could be null despite the check, so added ! annotation to remove warning
                     ret.Add(title!, link!);
                 }
             }

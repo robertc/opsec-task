@@ -1,5 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
-
+//TODO(RC) Set this up with proper init so I can set up proper routes
 // Add services to the container.
 
 builder.Services.AddControllers();
